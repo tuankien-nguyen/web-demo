@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- phần menu-->
+      <header>
+        <div class="logo">
+          <a href="main.html">
+            <img src="./icon/K&A 2.svg" alt="Company Logo" />
+          </a>
+        </div>
+
+        <nav class="horizontal-menu Body1">
+          <ul>
+            <li><a href="#">Về chúng tôi</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Tin tức & Thị trường</a></li>
+            <li><a href="#">Nhân lực</a></li>
+            <li><a href="#">Video & Hình ảnh</a></li>
+            <li><a href="#">Liên hệ</a></li>
+          </ul>
+        </nav>
+
+        <div class="language-selector">
+          <img src="./icon/Global.svg" alt="global icon" />
+          <select class="Body1" id="language" onchange="changeLanguage()">
+            <option class="Body1" value="vi">VI</option>
+            <option class="Body1" value="en">EN</option>
+          </select>
+        </div>
+      </header>
+
+      <main>
+        <!-- Phần hậu cần -->
+        <section>
+          <div class="st1">
+            <div class="st1-lp">
+              <div class="haucan">
+                <h1>HẬU CẦN</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Varius nisi amet
+                  nullam id. Eu odio et cras nisi eu congue faucibus sit.
+                  Pretium proin dignissim urna aenean rhoncus feugiat. Dui
+                  phasellus sed tellus nunc.
+                </p>
+                <button class="btn-TimHieuNgay">
+                  Tìm hiểu ngay
+                  <img src="./icon/Group 1410132609.svg" alt="icon mui ten" />
+                </button>
+              </div>
+              <div class="contain-carousel">
+                <div class="carousel">
+                  <div class="slides">
+                    <div class="slide active">
+                      <img src="./icon/container.png" alt="container" />
+                    </div>
+                    <div class="slide">
+                      <img src="./icon/kienhang.png" alt="Các gói hàng" />
+                    </div>
+                    <div class="slide">
+                      <img src="./icon/thuyen.png" alt="Con thuyền" />
+                    </div>
+                    <div class="slide">
+                      <img src="./icon/xe.png" alt="Xe nâng hàng" />
+                    </div>
+                  </div>
+
+                  <!-- Chấm chỉ báo -->
+                  <div class="indicators">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- phần Về chúng tôi -->
+        <section>
+          <div class="st2">
+            <div class="content">
+              <div class="vct">
+                <h1>VỀ CHÚNG TÔI</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Varius nisi amet
+                  nullam id. Eu odio et cras nisi eu congue faucibus sit.
+                  Pretium proin dignissim urna aenean Varius nisi amet nullam
+                  id. Eu odio et cras nisi eu
+                </p>
+              </div>
+              <div class="thongke">
+                <div>
+                  <h2>27<span>+</span></h2>
+                  <p>Varius nisi amet nullam id</p>
+                </div>
+                <div>
+                  <h2>100<span>+</span></h2>
+                  <p>Varius nisi amet nullam id</p>
+                </div>
+                <div>
+                  <h2 style="margin-left: 26px">
+                    50<span style="margin-left: 3px">+</span>
+                  </h2>
+                  <p>Varius nisi amet nullam id</p>
+                </div>
+                <div>
+                  <h2>1000<span>+</span></h2>
+                  <p>Varius nisi amet nullam id</p>
+                </div>
+                <button class="btn-TimHieuNgay">
+                  Tìm hiểu thêm
+                  <img src="./icon/Group 1410132609.svg" alt="icon mui ten" />
+                </button>
+              </div>
+            </div>
+            <div class="map"></div>
+          </div>
+        </section>
+
+        <!-- phần Dịch vụ -->
+        <section>
+          <div class="st3">
+            <div class="overlay"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <h1>DỊCH VỤ CỦA CHÚNG TÔI</h1>
+            <p>Cung cấp giải pháp về hậu cần</p>
+            <img src="./icon/muitendichvu.png" alt="icon mui ten" />
+            <button class="btn-TimHieuNgay">
+              Tìm hiểu thêm
+              <img src="./icon/Group 1410132609.svg" alt="icon mui ten" />
+            </button>
+          </div>
+        </section>
+
+        <!-- phần Đối tác của chúng tôi -->
+        <section>
+            <div class="st4">
+                <h1>ĐỐI TÁC CỦA CHÚNG TÔI</h1>
+                <div class="icon-track">
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                    <img src="./icon/K&A 4.png" alt="Company Logo" />
+                </div>
+                <div class="reason">
+                    <div class="contain-galery">
+                        <img class="galery" src="./icon/khohang.png" alt="Kho hàng">
+                        <img class="galery" src="./icon/tauphabang.png" alt="Tàu phá băng">
+                    </div>
+                    <div class="content">
+                        <h1>LÝ DO CHỌN CHÚNG TÔI</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id. Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim urna aenean  Varius nisi amet nullam id. Eu odio et cras nisi eu </p>
+                        <div class="track">
+                            <div>
+                                <img src="./icon/iconmattroi.png" alt="icon mặt trời">
+                                <span>Độ uy tín</span>
+                                <p>Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id. Eu odio et cras nisi eu  </p>
+                            </div>
+                            <div>
+                                <img src="./icon/iconmattroi.png" alt="icon mặt trời">
+                                <span>Độ uy tín</span>
+                                <p>Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id. Eu odio et cras nisi eu  </p>
+                            </div>
+                            <div>
+                                <img src="./icon/iconmattroi.png" alt="icon mặt trời">
+                                <span>Độ uy tín</span>
+                                <p>Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id. Eu odio et cras nisi eu  </p>
+                            </div>
+                            <div>
+                                <img src="./icon/iconmattroi.png" alt="icon mặt trời">
+                                <span>Độ uy tín</span>
+                                <p>Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id. Eu odio et cras nisi eu  </p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Khách hàng nói gì về chúng tôi -->
+         <section>
+            <div class="st5">
+                <div class="st5-container">
+                    <h1>KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h1>
+
+                      <!-- Nút điều hướng -->
+                    <button class="prev"><img src="./icon/direction-left 01.png" alt="Mũi tên trái"></button>
+                    <button class="next"><img src="./icon/direction-right 01.png" alt="Mũi tên phải"></button>
+
+                    <div class="indicators">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+
+                    <div class="ctn-comment">
+                        <div class="comment">
+                            <div>
+                                <div class="avartar">
+                                    <img src="./icon/person1.png" alt="Người phụ nữ">
+                                </div>
+                                <div >
+                                    <p>“ Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim urna aenean Varius nisi amet nullam id. Eu odio et cras nisi eu.”</p>
+                                    <div class="cmt-content">
+                                        <span>Ms Taylor <span style="font-weight: 400;margin-left: 3px;">| Founder ABC</span></span>
+                                        <img src="./icon/icon_2phay.png" alt="icon 2 dấu phẩy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div>
+                                <div class="avartar">
+                                    <img src="./icon/person2.png" alt="Người đàn ông">
+                                </div>
+                                <div >
+                                    <p>“ Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim urna aenean Varius nisi amet nullam id. Eu odio et cras nisi eu.”</p>
+                                    <div class="cmt-content">
+                                        <span>Mr David <span style="font-weight: 400;margin-left: 3px;">| Founder ABC</span></span>
+                                        <img src="./icon/icon_2phay.png" alt="icon 2 dấu phẩy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Tin tức -->
+          <section>
+            <div class="tinTuc">
+                <div class="tieuDe">
+                    <h1>TIN TỨC</h1>
+                    <div>
+                        <span><a href="#">Xem tất cả</a></span>
+                        <img src="./icon/Group 135.png" alt="Mui ten">
+                        <img src="./icon/Group 135.png" alt="Mui ten">
+                    </div>
+                </div>
+                <div class="group1">
+                    <div class="group1a">
+                        <div class="gr-overlay"></div>
+                        <div>
+                            <button>Tin nội bộ</button>
+                            <span>20-11-2024</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur  Varius nisi amet nullam id</p>
+                    </div>
+                    <div class="group1a">
+                        <div class="gr-overlay"></div>
+                        <div>
+                            <button>Tin thị trường</button>
+                            <span>18-11-2024</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur  Varius nisi amet nullam id</p>
+                    </div>
+                </div>
+                <div class="group2">
+                    <div class="gr-overlay"></div>
+                    <div>
+                        <button>Tin thị trường</button>
+                        <span>18-11-2024</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur  Varius nisi amet nullam id</p>
+                </div>
+            </div>
+          </section>
+      </main>
+      <footer>
+        <div class="footer">
+            <div class="footer-ctn">
+                <div class="info1">
+                    <img src="./icon/K&A 1.png" alt="logo cong ty">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id. Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim 
+                    </p>
+                    <h3>Đăng ký nhận thông tin</h3>
+                    <div class="input-container">
+                        <img src="./icon/gmail.png" alt="icon gmail">
+                        <input type="email" placeholder="Nhập Email của bạn">
+                        <button>Đăng ký ngay
+                            <img src="./icon/Subcribe.png" alt="icon Subcribe">
+                        </button>
+                    </div>
+                </div>
+                <div class="info2">
+                    <h3>Công ty</h3>
+                    <p style="margin-top: 19px;">Về chúng tôi</p>
+                    <p>Dịch vụ</p>
+                    <p>Sản phẩm</p>
+                    <p>Tin tức & Thị trường</p>
+                    <p>Nhân lực</p>
+                </div>
+                <div class="info3">
+                    <h3>Dịch vụ</h3>
+                    <p style="margin-top: 19px;">Logistic</p>
+                    <p>Giải pháp kinh doanh hàng hoá quốc tế</p>
+                    <p>Outsourcing về hàng hoá</p>
+                </div>
+                <div class="info4">
+                    <h3>Liên lạc</h3>
+                    <div class="info4-phone">
+                        <img src="./icon/telephone.png" alt="dien thoai">
+                        <div>
+                            <p class="phone" style="margin-top: 19px;">+84 124.567.888</p>
+                            <p class="time">(8:30 - 17:30)</p>
+                        </div>
+                    </div>
+                    <div class="info4-mail">
+                        <img src="./icon/gmail.png" alt="icon gmail">
+                        <p style="margin-top: 11px;" class="phone">hbhfbdh@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="hr1">
+            <div class="last">
+                <p>
+                    All rights reserved.
+                </p>
+                <div>
+                    <img src="./icon/face.png" alt="facebook">
+                    <img src="./icon/ytbpng.png" alt="youtube">
+                    <img src="./icon/tiktok.png" alt="Tiktok">
+                </div>
+            </div>
+            <img class="btn-muiten" src="./icon/Component 1.png" alt="hinh mui ten">
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script>
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+    let currentIndex = 0;
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        changeSlide(index);
+      });
+    });
+
+    function changeSlide(index) {
+      if (index < 0) index = slides.length - 1;
+      if (index >= slides.length) index = 0;
+
+      slides.forEach((slide) => slide.classList.remove("active"));
+      dots.forEach((dot) => dot.classList.remove("active"));
+
+      slides[index].classList.add("active");
+      dots[index].classList.add("active");
+      currentIndex = index;
+
+      document.querySelector(".slides").style.transform = `translateX(-${
+        index * 100
+      }%)`;
+    }
+  </script>
+</html>
